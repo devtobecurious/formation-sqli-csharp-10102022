@@ -1,14 +1,73 @@
 ﻿
-using HarryPotter.Game.UI.Console.Core.Exceptions;
-using MonCore = HarryPotter.Game.UI.Console.Core;
+using HarryPotter.Core.Library.Exceptions;
+using HarryPotter.Core.Library.Models;
+using HarryPotter.Core.Library.UI;
+using System;
+using System.Collections.Generic;
+using MonCore = HarryPotter.Core.Library.Models;
 using MonEspace = Toto;
 
 #region Coeur de l'application
-MonCore.Menu menu = new MonCore.Menu();
+Menu menu = new Menu();
 MonEspace.Menu m;
 
 MonCore.Profil profil;
 // profil.DateDeNaissance = DateTime.Now;
+
+List<Sort> sorts = new List<Sort>();
+
+void PrepareSorts()
+{
+    //var sort = new Sort(0);
+    //Sort sort2 = new(10);
+
+    sorts.Add(new AvadaKedavraSort(1));
+    sorts.Add(new EndolorisSort(2));
+    sorts.Add(new StupefixSort(3));
+}
+
+void AfficherSortsDisponibles()
+{
+    Console.WriteLine("------------ LES SORTS DISPONIBLES -------------");
+
+    Console.ForegroundColor = ConsoleColor.DarkYellow;
+    foreach (var item in sorts)
+    {
+        Console.WriteLine(item);
+    }
+    Console.ForegroundColor = ConsoleColor.White;
+}
+
+void SelectionSortALancer()
+{
+    Console.WriteLine("Choix du sort");
+    string sortSaisie = Console.ReadLine();
+    Sort sortSelectionne = null;
+
+    sortSelectionne = sorts[int.Parse(sortSaisie) - 1];
+
+    sortSelectionne.Lancer();
+
+    //switch (int.Parse(sortSaisie))
+    //{
+    //    case 1:
+    //        {
+    //            sortSelectionne = sorts[0];
+    //        } break;
+
+    //    case 2:
+    //        {
+    //            sortSelectionne = sorts[1];
+    //        }
+    //        break;
+
+    //    case 3:
+    //        {
+    //            sortSelectionne = sorts[2];
+    //        }
+    //        break;
+    //}
+}
 
 void SaisieProfil() 
 {
@@ -61,15 +120,17 @@ void SaisieProfil()
     }
     catch (AgeNonAttenduException ex) when (ex.AgeLimit < 10)
     {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        Console.WriteLine("Age bcp trop faible, vous avez saisie " + ex.AgeSaisie);
+        Console.ForegroundColor = ConsoleColor.White;
 
+        throw;
     }
-    catch (AgeNonAttenduException ex) when (ex.AgeLimit < 10)
+    catch (AgeNonAttenduException ex) when (ex.AgeLimit < 13)
     {
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("Age trop faible, vous avez saisie " + ex.AgeSaisie);
         Console.ForegroundColor = ConsoleColor.White;
-
-        throw;
     }
     catch (DivideByZeroException ex)
     {
@@ -89,11 +150,10 @@ void SaisieProfil()
         // Console.WriteLine("Quelque soit le fait qu'il y ait eu une erreur");
     }
 }
- 
-void PreparationJeu()
-{  
 
-    MonCore.MenuItem item = new MonCore.MenuItem();
+void PreparerMenu()
+{
+    MenuItem item = new MenuItem();
 
     //menu.Items.Add(new MonCore.MenuItem(libelle: "Nouvelle partie"));
     //menu.Items.Add(new MonCore.MenuItem(2, "Charger une partie"));
@@ -101,17 +161,23 @@ void PreparationJeu()
 
     menu.Ajouter(0, "Saisie de ton profil");
 
-    menu.Ajouter(new MonCore.MenuItem(libelle: "Nouvelle partie"));
-    menu.Ajouter(new MonCore.MenuItem(2, "Charger une partie"));
-    menu.Ajouter(new MonCore.MenuItem(3, "A propos"));
+    menu.Ajouter(new MenuItem(libelle: "Nouvelle partie"));
+    menu.Ajouter(new MenuItem(2, "Charger une partie"));
+    menu.Ajouter(new MenuItem(3, "A propos"));
 
 
-    var monItem = new MonCore.MenuItem(4);
+    var monItem = new MenuItem(4);
 
     monItem.Libelle = "Statistiques";
     menu.Ajouter(monItem);
 
     menu.Ajouter(-1, "Quitter");
+}
+ 
+void PreparationJeu()
+{
+    PrepareSorts();
+    PreparerMenu();    
 }
 
 void AfficherMenu()
@@ -136,6 +202,9 @@ void AfficherMenu()
 
 #region Exécution de l'application
 PreparationJeu();
+AfficherSortsDisponibles();
+SelectionSortALancer();
+
 SaisieProfil();
 AfficherMenu();
 #endregion

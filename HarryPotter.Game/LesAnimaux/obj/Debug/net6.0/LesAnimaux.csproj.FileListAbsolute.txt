@@ -1,0 +1,12 @@
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\bin\Debug\net6.0\LesAnimaux.deps.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\bin\Debug\net6.0\LesAnimaux.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\bin\Debug\net6.0\LesAnimaux.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\obj\Debug\net6.0\LesAnimaux.csproj.AssemblyReference.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\obj\Debug\net6.0\LesAnimaux.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\obj\Debug\net6.0\LesAnimaux.AssemblyInfoInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\obj\Debug\net6.0\LesAnimaux.AssemblyInfo.cs
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\obj\Debug\net6.0\LesAnimaux.csproj.CoreCompileInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\obj\Debug\net6.0\LesAnimaux.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\obj\Debug\net6.0\refint\LesAnimaux.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\obj\Debug\net6.0\LesAnimaux.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimaux\obj\Debug\net6.0\ref\LesAnimaux.dll

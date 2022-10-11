@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "HarryPotter.Game.UI.Console/1.0.0": {
+        "dependencies": {
+          "HarryPotter.Core.Library": "1.0.0"
+        },
         "runtime": {
           "HarryPotter.Game.UI.Console.dll": {}
+        }
+      },
+      "HarryPotter.Core.Library/1.0.0": {
+        "runtime": {
+          "HarryPotter.Core.Library.dll": {}
         }
       }
     }
   },
   "libraries": {
     "HarryPotter.Game.UI.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HarryPotter.Core.Library/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HarryPotter.Game.UI.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "a=1"
+    }
+  }
+}

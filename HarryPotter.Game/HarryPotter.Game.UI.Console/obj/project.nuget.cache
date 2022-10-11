@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XwJI5KF6y7Ihxmgwqjxb9A/pzRKOMAiZ0qIbf2l+FuGzGQJFnrXEdIbN0gPa0By4YzCcXwo8ZhZeU9D6+ifs/g==",
+  "dgSpecHash": "4eCAoZIT+E7WScf5GdF2np3IKIoWGiVcNqHJhvxsH+4HwRbvUEeBGu2uk1+lbDqIvS3SYEcpygszQYEFbXsvVQ==",
   "success": true,
-  "projectFilePath": "D:\\Works\\Formations\\En cours\\SQLli\\Csharp\\10102022\\HarryPotter.Game\\HarryPotter.Game.UI.Console\\HarryPotter.Game.UI.Console.csproj",
+  "projectFilePath": "D:\\Works\\Formations\\En cours\\SQLli\\Csharp\\10102022\\formation-sqli-csharp-10102022\\HarryPotter.Game\\HarryPotter.Game.UI.Console\\HarryPotter.Game.UI.Console.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
