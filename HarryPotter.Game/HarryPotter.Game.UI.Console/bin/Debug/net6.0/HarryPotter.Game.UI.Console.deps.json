@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HarryPotter.Game.UI.Console/1.0.0": {
+        "runtime": {
+          "HarryPotter.Game.UI.Console.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HarryPotter.Game.UI.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
