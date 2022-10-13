@@ -1,0 +1,15 @@
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\bin\Debug\net6.0\DecouverteDelegues.exe
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\bin\Debug\net6.0\DecouverteDelegues.deps.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\bin\Debug\net6.0\DecouverteDelegues.runtimeconfig.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\bin\Debug\net6.0\DecouverteDelegues.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\bin\Debug\net6.0\DecouverteDelegues.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\obj\Debug\net6.0\DecouverteDelegues.csproj.AssemblyReference.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\obj\Debug\net6.0\DecouverteDelegues.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\obj\Debug\net6.0\DecouverteDelegues.AssemblyInfoInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\obj\Debug\net6.0\DecouverteDelegues.AssemblyInfo.cs
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\obj\Debug\net6.0\DecouverteDelegues.csproj.CoreCompileInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\obj\Debug\net6.0\DecouverteDelegues.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\obj\Debug\net6.0\refint\DecouverteDelegues.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\obj\Debug\net6.0\DecouverteDelegues.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\obj\Debug\net6.0\DecouverteDelegues.genruntimeconfig.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteDelegues\obj\Debug\net6.0\ref\DecouverteDelegues.dll

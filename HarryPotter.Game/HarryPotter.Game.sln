@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HarryPotter.Game.UI.Console", "HarryPotter.Game.UI.Console\HarryPotter.Game.UI.Console.csproj", "{41B11A96-92FA-40CA-8270-B58B05C7329B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarryPotter.Core.Library", "HarryPotter.Core.Library\HarryPotter.Core.Library.csproj", "{D733C65B-88AC-4A62-B519-0A0FE42976CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HarryPotter.Core.Library", "HarryPotter.Core.Library\HarryPotter.Core.Library.csproj", "{D733C65B-88AC-4A62-B519-0A0FE42976CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{0D7A2172-CA7D-41B2-8834-901DFB8894DB}"
 EndProject
@@ -13,11 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{2AC5C87D-7448-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{DCB264DA-1FA8-443E-A40C-FE21C511A603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarryPotter.Game.UI.Web", "HarryPotter.Game.UI.Web\HarryPotter.Game.UI.Web.csproj", "{A1EFCC1E-7310-48A5-9160-F0B965B84B8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HarryPotter.Game.UI.Web", "HarryPotter.Game.UI.Web\HarryPotter.Game.UI.Web.csproj", "{A1EFCC1E-7310-48A5-9160-F0B965B84B8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesAnimaux", "LesAnimaux\LesAnimaux.csproj", "{2407CD17-B86B-4182-9614-4B968E9CF9BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesAnimaux", "LesAnimaux\LesAnimaux.csproj", "{2407CD17-B86B-4182-9614-4B968E9CF9BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesAnimaux.UI.Console", "LesAnimaux.UI.Console\LesAnimaux.UI.Console.csproj", "{3EAB55F6-801E-4AB4-BDB4-5C395FE242D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesAnimaux.UI.Console", "LesAnimaux.UI.Console\LesAnimaux.UI.Console.csproj", "{3EAB55F6-801E-4AB4-BDB4-5C395FE242D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteDelegues", "DecouverteDelegues\DecouverteDelegues.csproj", "{D5FBEB93-120E-4EEC-AFEB-15CF35279443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCalculTva", "TestCalculTva\TestCalculTva.csproj", "{77D34FEE-4244-4103-9C68-2A5704D037AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarryPotter.Core.Tools", "HarryPotter.Core.Tools\HarryPotter.Core.Tools.csproj", "{550D9342-7507-46A4-B2BE-B3F69913D916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{3EAB55F6-801E-4AB4-BDB4-5C395FE242D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EAB55F6-801E-4AB4-BDB4-5C395FE242D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EAB55F6-801E-4AB4-BDB4-5C395FE242D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FBEB93-120E-4EEC-AFEB-15CF35279443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FBEB93-120E-4EEC-AFEB-15CF35279443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FBEB93-120E-4EEC-AFEB-15CF35279443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FBEB93-120E-4EEC-AFEB-15CF35279443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D34FEE-4244-4103-9C68-2A5704D037AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D34FEE-4244-4103-9C68-2A5704D037AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D34FEE-4244-4103-9C68-2A5704D037AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D34FEE-4244-4103-9C68-2A5704D037AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550D9342-7507-46A4-B2BE-B3F69913D916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550D9342-7507-46A4-B2BE-B3F69913D916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550D9342-7507-46A4-B2BE-B3F69913D916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550D9342-7507-46A4-B2BE-B3F69913D916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +74,9 @@ Global
 		{A1EFCC1E-7310-48A5-9160-F0B965B84B8D} = {2AC5C87D-7448-4FF7-8D9E-3BF097DFA0C6}
 		{2407CD17-B86B-4182-9614-4B968E9CF9BC} = {DCB264DA-1FA8-443E-A40C-FE21C511A603}
 		{3EAB55F6-801E-4AB4-BDB4-5C395FE242D7} = {2AC5C87D-7448-4FF7-8D9E-3BF097DFA0C6}
+		{D5FBEB93-120E-4EEC-AFEB-15CF35279443} = {2AC5C87D-7448-4FF7-8D9E-3BF097DFA0C6}
+		{77D34FEE-4244-4103-9C68-2A5704D037AD} = {2AC5C87D-7448-4FF7-8D9E-3BF097DFA0C6}
+		{550D9342-7507-46A4-B2BE-B3F69913D916} = {DCB264DA-1FA8-443E-A40C-FE21C511A603}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B2DF894-5EBC-4544-97A6-487D0DE74C01}

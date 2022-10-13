@@ -11,6 +11,16 @@
         "runtime": {
           "bin/placeholder/HarryPotter.Core.Library.dll": {}
         }
+      },
+      "HarryPotter.Core.Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HarryPotter.Core.Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HarryPotter.Core.Tools.dll": {}
+        }
       }
     }
   },
@@ -19,11 +29,17 @@
       "type": "project",
       "path": "../HarryPotter.Core.Library/HarryPotter.Core.Library.csproj",
       "msbuildProject": "../HarryPotter.Core.Library/HarryPotter.Core.Library.csproj"
+    },
+    "HarryPotter.Core.Tools/1.0.0": {
+      "type": "project",
+      "path": "../HarryPotter.Core.Tools/HarryPotter.Core.Tools.csproj",
+      "msbuildProject": "../HarryPotter.Core.Tools/HarryPotter.Core.Tools.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "HarryPotter.Core.Library >= 1.0.0"
+      "HarryPotter.Core.Library >= 1.0.0",
+      "HarryPotter.Core.Tools >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -64,6 +80,9 @@
           "projectReferences": {
             "D:\\Works\\Formations\\En cours\\SQLli\\Csharp\\10102022\\formation-sqli-csharp-10102022\\HarryPotter.Game\\HarryPotter.Core.Library\\HarryPotter.Core.Library.csproj": {
               "projectPath": "D:\\Works\\Formations\\En cours\\SQLli\\Csharp\\10102022\\formation-sqli-csharp-10102022\\HarryPotter.Game\\HarryPotter.Core.Library\\HarryPotter.Core.Library.csproj"
+            },
+            "D:\\Works\\Formations\\En cours\\SQLli\\Csharp\\10102022\\formation-sqli-csharp-10102022\\HarryPotter.Game\\HarryPotter.Core.Tools\\HarryPotter.Core.Tools.csproj": {
+              "projectPath": "D:\\Works\\Formations\\En cours\\SQLli\\Csharp\\10102022\\formation-sqli-csharp-10102022\\HarryPotter.Game\\HarryPotter.Core.Tools\\HarryPotter.Core.Tools.csproj"
             }
           }
         }

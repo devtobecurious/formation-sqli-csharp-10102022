@@ -7,8 +7,18 @@ List<Animal> animals = new List<Animal>()
 {
     animal1,
     animal2,
-    new Gorille()
+    new Gorille(),
+    null
 };
+
+animals.ForEach(animal =>
+{
+    if (animal != null)
+    {
+        animal.Dormir();
+    }
+}
+);
 
 
 

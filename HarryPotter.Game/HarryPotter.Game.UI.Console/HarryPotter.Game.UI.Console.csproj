@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HarryPotter.Core.Library\HarryPotter.Core.Library.csproj" />
+    <ProjectReference Include="..\HarryPotter.Core.Tools\HarryPotter.Core.Tools.csproj" />
   </ItemGroup>
 
 </Project>

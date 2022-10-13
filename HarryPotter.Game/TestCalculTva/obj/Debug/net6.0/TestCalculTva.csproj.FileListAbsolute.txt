@@ -1,0 +1,15 @@
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\bin\Debug\net6.0\TestCalculTva.exe
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\bin\Debug\net6.0\TestCalculTva.deps.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\bin\Debug\net6.0\TestCalculTva.runtimeconfig.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\bin\Debug\net6.0\TestCalculTva.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\bin\Debug\net6.0\TestCalculTva.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\obj\Debug\net6.0\TestCalculTva.csproj.AssemblyReference.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\obj\Debug\net6.0\TestCalculTva.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\obj\Debug\net6.0\TestCalculTva.AssemblyInfoInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\obj\Debug\net6.0\TestCalculTva.AssemblyInfo.cs
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\obj\Debug\net6.0\TestCalculTva.csproj.CoreCompileInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\obj\Debug\net6.0\TestCalculTva.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\obj\Debug\net6.0\refint\TestCalculTva.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\obj\Debug\net6.0\TestCalculTva.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\obj\Debug\net6.0\TestCalculTva.genruntimeconfig.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TestCalculTva\obj\Debug\net6.0\ref\TestCalculTva.dll

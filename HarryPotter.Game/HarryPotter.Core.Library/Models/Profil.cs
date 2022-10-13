@@ -14,6 +14,7 @@ namespace HarryPotter.Core.Library.Models
     {
         #region Fields
         private DateTime dateDeNaissance;
+        private Character? character;
         #endregion
 
         #region Constructors
@@ -26,6 +27,18 @@ namespace HarryPotter.Core.Library.Models
             DateDeNaissance = dateDeNaissance;
             Prenom = prenom;
             Age = age;
+        }
+        #endregion
+
+        #region Public methods
+        public void AffecterPersonnage(Character character)
+        {
+            this.character = character;
+        }
+
+        public void AffecterBaguetteAuPersonnage(Baguette baguette)
+        {
+            this.character?.AffecterBaguette(baguette);
         }
         #endregion
 

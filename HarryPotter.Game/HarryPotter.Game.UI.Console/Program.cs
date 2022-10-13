@@ -2,6 +2,7 @@
 using HarryPotter.Core.Library.Exceptions;
 using HarryPotter.Core.Library.Models;
 using HarryPotter.Core.Library.UI;
+using HarryPotter.Core.Tools;
 using System;
 using System.Collections.Generic;
 using MonCore = HarryPotter.Core.Library.Models;
@@ -11,10 +12,49 @@ using MonEspace = Toto;
 Menu menu = new Menu();
 MonEspace.Menu m;
 
-MonCore.Profil profil;
+MonCore.Profil profil = null;
 // profil.DateDeNaissance = DateTime.Now;
 
 List<Sort> sorts = new List<Sort>();
+List<Character> characters = new List<Character>();
+List<Baguette> baguettes = new List<Baguette>();
+
+void PreparePersonnages()
+{
+    characters.Add(new GentilCharacter("Hermione"));
+    characters.Add(new GentilCharacter("Harry Potter"));
+    characters.Add(new MechantCharacter("Voldemort"));
+}
+
+void AfficherPersonnages()
+{
+    Console.WriteLine("------------ LES PERSONNAGES DISPONIBLES -------------");
+    Console.ForegroundColor = ConsoleColor.DarkGreen;
+
+    //foreach (var item in characters)
+    //{
+
+    //}
+    characters.ForEach(item =>
+    {
+        Console.WriteLine(item);
+    });
+
+    Console.ForegroundColor = ConsoleColor.White;
+}
+
+void SelectionnerPersonnage()
+{
+    Console.WriteLine("Votre perso pour le jeu ?");
+    string persoSaisie = Console.ReadLine();
+
+    Character selectionPerso = characters[int.Parse(persoSaisie) - 1];
+    //if (profil != null)
+    //{
+    //    profil.AffecterPersonnage(selectionPerso);
+    //}
+    profil?.AffecterPersonnage(selectionPerso);
+}
 
 void PrepareSorts()
 {
@@ -47,29 +87,40 @@ void SelectionSortALancer()
     sortSelectionne = sorts[int.Parse(sortSaisie) - 1];
 
     sortSelectionne.Lancer();
-
-    //switch (int.Parse(sortSaisie))
-    //{
-    //    case 1:
-    //        {
-    //            sortSelectionne = sorts[0];
-    //        } break;
-
-    //    case 2:
-    //        {
-    //            sortSelectionne = sorts[1];
-    //        }
-    //        break;
-
-    //    case 3:
-    //        {
-    //            sortSelectionne = sorts[2];
-    //        }
-    //        break;
-    //}
 }
 
-void SaisieProfil() 
+void PreparerBaguettes()
+{
+    baguettes.Add(new BoisSureauBaguette());
+    baguettes.Add(new PlumePhoenixBaguette());
+    baguettes.Add(new EcailleDragonBaguette());
+}
+
+void AfficherBaguettes()
+{
+    Console.WriteLine("------------ les baguettes disponibles -------------".ToUpper());
+
+    Console.ForegroundColor = ConsoleColor.DarkYellow;
+
+    baguettes.ForEach(baguette =>
+    {
+        Console.WriteLine(baguette);
+    });
+    Console.ForegroundColor = ConsoleColor.White;
+}
+
+void SelectionBaguette()
+{
+    Console.WriteLine("Choix de la baguette");
+    string baguetteSaisie = Console.ReadLine();
+    Baguette baguetteSelectionnee = null;
+
+    baguetteSelectionnee = baguettes[int.Parse(baguetteSaisie) - 1];
+
+    profil?.AffecterBaguetteAuPersonnage(baguetteSelectionnee);
+}
+
+void SaisieProfil(ILogger logger) 
 {
     var prenom = "";
     var dateNaissance = DateOnly.MinValue;
@@ -124,6 +175,8 @@ void SaisieProfil()
         Console.WriteLine("Age bcp trop faible, vous avez saisie " + ex.AgeSaisie);
         Console.ForegroundColor = ConsoleColor.White;
 
+        logger.Ecrire(ex.Message);
+
         throw;
     }
     catch (AgeNonAttenduException ex) when (ex.AgeLimit < 13)
@@ -177,6 +230,8 @@ void PreparerMenu()
 void PreparationJeu()
 {
     PrepareSorts();
+    PreparerBaguettes();
+    PreparePersonnages();
     PreparerMenu();    
 }
 
@@ -202,9 +257,16 @@ void AfficherMenu()
 
 #region Exécution de l'application
 PreparationJeu();
-AfficherSortsDisponibles();
-SelectionSortALancer();
+//AfficherSortsDisponibles();
+//SelectionSortALancer();
 
-SaisieProfil();
+var logger = new FichierLogger();
+SaisieProfil(logger);
+
+AfficherPersonnages();
+SelectionnerPersonnage();
+AfficherBaguettes();
+SelectionBaguette();
+
 AfficherMenu();
 #endregion
