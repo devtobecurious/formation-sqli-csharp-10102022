@@ -60,6 +60,11 @@ namespace HarryPotter.Core.Library.Models
                     throw new AgeNonAttenduException(age, 13);
                 }
 
+                if (age != this.Age)
+                {
+                    throw new ArgumentException("age");
+                }
+
                 this.dateDeNaissance = value;
             }
         }

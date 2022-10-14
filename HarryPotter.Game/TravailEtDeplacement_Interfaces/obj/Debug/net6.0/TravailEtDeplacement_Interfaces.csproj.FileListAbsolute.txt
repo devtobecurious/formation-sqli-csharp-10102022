@@ -1,0 +1,15 @@
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\bin\Debug\net6.0\TravailEtDeplacement_Interfaces.exe
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\bin\Debug\net6.0\TravailEtDeplacement_Interfaces.deps.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\bin\Debug\net6.0\TravailEtDeplacement_Interfaces.runtimeconfig.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\bin\Debug\net6.0\TravailEtDeplacement_Interfaces.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\bin\Debug\net6.0\TravailEtDeplacement_Interfaces.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\obj\Debug\net6.0\TravailEtDeplacement_Interfaces.csproj.AssemblyReference.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\obj\Debug\net6.0\TravailEtDeplacement_Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\obj\Debug\net6.0\TravailEtDeplacement_Interfaces.AssemblyInfoInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\obj\Debug\net6.0\TravailEtDeplacement_Interfaces.AssemblyInfo.cs
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\obj\Debug\net6.0\TravailEtDeplacement_Interfaces.csproj.CoreCompileInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\obj\Debug\net6.0\TravailEtDeplacement_Interfaces.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\obj\Debug\net6.0\refint\TravailEtDeplacement_Interfaces.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\obj\Debug\net6.0\TravailEtDeplacement_Interfaces.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\obj\Debug\net6.0\TravailEtDeplacement_Interfaces.genruntimeconfig.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\TravailEtDeplacement_Interfaces\obj\Debug\net6.0\ref\TravailEtDeplacement_Interfaces.dll

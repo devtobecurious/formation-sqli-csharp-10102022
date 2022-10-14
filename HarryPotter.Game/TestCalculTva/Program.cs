@@ -43,7 +43,7 @@ switch (tvaSaisie)
 }
 
 
-float montantTTC = calculateur.CalculTTC(float.Parse(valeurSaisie), tva);
+//float montantTTC = calculateur.CalculTTC(float.Parse(valeurSaisie), tva);
 
-Console.WriteLine("Le montant TTC est de {0}", montantTTC);
+//Console.WriteLine("Le montant TTC est de {0}", montantTTC);
 

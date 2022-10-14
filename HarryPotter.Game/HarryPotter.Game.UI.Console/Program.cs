@@ -260,13 +260,41 @@ PreparationJeu();
 //AfficherSortsDisponibles();
 //SelectionSortALancer();
 
-var logger = new FichierLogger();
-SaisieProfil(logger);
+//var logger = new FichierLogger();
+//SaisieProfil(logger);
 
-AfficherPersonnages();
-SelectionnerPersonnage();
-AfficherBaguettes();
-SelectionBaguette();
+//AfficherPersonnages();
+//SelectionnerPersonnage();
+//AfficherBaguettes();
+//SelectionBaguette();
 
-AfficherMenu();
+//AfficherMenu();
+#endregion
+
+#region Death match
+void EnTrainDeMourrir(Character mort)
+{
+    Console.WriteLine("Y a un mort ! {0}", mort.Prenom);
+}
+
+void DeathMatch()
+{
+    Character attaquant1 = new GentilCharacter("Harry Potter");
+    Character attaquant2 = new MechantCharacter("Voldemort");
+
+    attaquant1.Mourrir += EnTrainDeMourrir;
+    attaquant1.Mourrir += attaquant2.SeLaPeter;
+
+    attaquant2.Mourrir += EnTrainDeMourrir;
+    attaquant2.Mourrir += attaquant1.SeLaPeter;
+
+
+    while (attaquant1.PointsDeVie > 0 && attaquant2.PointsDeVie > 0)
+    {
+        attaquant1.Attaquer(attaquant2);
+        attaquant2.Attaquer(attaquant1);
+    }
+}
+
+DeathMatch();
 #endregion

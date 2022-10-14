@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tw5DnBxmwlhoglyGbEqF4vLIUklXbfZyru6Gilcje/MbAhwHu5BBUBWUNLaRB7MJ0FN3gL+R2hKgAn6IJlUOtg==",
+  "success": true,
+  "projectFilePath": "D:\\Works\\Formations\\En cours\\SQLli\\Csharp\\10102022\\formation-sqli-csharp-10102022\\HarryPotter.Game\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\evan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.27\\microsoft.netcore.app.host.win-x64.3.1.27.nupkg.sha512"
+  ],
+  "logs": []
+}

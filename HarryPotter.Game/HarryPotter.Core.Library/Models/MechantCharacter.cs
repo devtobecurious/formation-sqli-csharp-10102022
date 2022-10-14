@@ -15,7 +15,7 @@ namespace HarryPotter.Core.Library.Models
         #endregion
 
         #region Public methods
-        public override void Attaquer()
+        public override void Defendre()
         {
             throw new NotImplementedException();
         }

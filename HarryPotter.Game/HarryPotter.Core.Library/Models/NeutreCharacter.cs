@@ -12,7 +12,7 @@ namespace HarryPotter.Core.Library.Models
         {
         }
 
-        public override void Attaquer()
+        public override void Defendre()
         {
             throw new NotImplementedException();
         }

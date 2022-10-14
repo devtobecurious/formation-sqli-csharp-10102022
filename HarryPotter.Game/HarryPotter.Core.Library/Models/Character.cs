@@ -14,7 +14,11 @@ namespace HarryPotter.Core.Library.Models
         #region Fields
         private static int Compteur = 1;
         private Baguette baguette;
+        private int pointsDeVie = 100;
+        private static Random random = new Random();
         private int id;
+
+        public event Action<Character> Mourrir;
         #endregion
 
         #region Constructors
@@ -41,7 +45,21 @@ namespace HarryPotter.Core.Library.Models
             this.baguette = baguette;
         }
 
-        public abstract void Attaquer();
+        public void SeLaPeter(Character character)
+        {
+            // string.Format("{1}{1}", character.Prenom, 10);
+            Console.WriteLine("{0} : Jai gagné !! J'ai gagné !!!", this.Prenom);
+        }
+
+        public virtual void Attaquer(Character ennemi)
+        {
+            int coup = Character.random.Next(1, 15);
+            ennemi.PointsDeVie -= coup;
+
+            Console.WriteLine($"Ennemi {ennemi.Prenom.ToUpper()}: {ennemi.pointsDeVie}");
+        }
+
+        public abstract void Defendre();
 
         public override string ToString()
         {
@@ -51,8 +69,21 @@ namespace HarryPotter.Core.Library.Models
 
         #region Properties
         public string Prenom { get; set; } = "";
+        
+        public int PointsDeVie
+        {
+            get => this.pointsDeVie;
+            set
+            {
+                this.pointsDeVie = value;
 
-        public int PointsDeVie { get; set; } = 100;
+                if (this.pointsDeVie <= 0)
+                {
+                    this.pointsDeVie = 0;
+                    this.Mourrir?.Invoke(this);
+                }
+            }
+        }
         #endregion
     }
 }

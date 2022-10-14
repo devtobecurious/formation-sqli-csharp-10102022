@@ -1,0 +1,12 @@
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\bin\Debug\net6.0\HarryPotter.Core.Tools.deps.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\bin\Debug\net6.0\HarryPotter.Core.Tools.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\bin\Debug\net6.0\HarryPotter.Core.Tools.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\obj\Debug\net6.0\HarryPotter.Core.Tools.csproj.AssemblyReference.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\obj\Debug\net6.0\HarryPotter.Core.Tools.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\obj\Debug\net6.0\HarryPotter.Core.Tools.AssemblyInfoInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\obj\Debug\net6.0\HarryPotter.Core.Tools.AssemblyInfo.cs
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\obj\Debug\net6.0\HarryPotter.Core.Tools.csproj.CoreCompileInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\obj\Debug\net6.0\HarryPotter.Core.Tools.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\obj\Debug\net6.0\refint\HarryPotter.Core.Tools.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\obj\Debug\net6.0\HarryPotter.Core.Tools.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Core.Tools\obj\Debug\net6.0\ref\HarryPotter.Core.Tools.dll

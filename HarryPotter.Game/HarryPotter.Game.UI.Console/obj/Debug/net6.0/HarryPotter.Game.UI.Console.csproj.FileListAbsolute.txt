@@ -31,3 +31,5 @@ D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-1010202
 D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Game.UI.Console\bin\Debug\net6.0\HarryPotter.Core.Library.dll
 D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Game.UI.Console\bin\Debug\net6.0\HarryPotter.Core.Library.pdb
 D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Game.UI.Console\obj\Debug\net6.0\HarryPotter.Game.UI.Console.csproj.CopyComplete
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Game.UI.Console\bin\Debug\net6.0\HarryPotter.Core.Tools.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\HarryPotter.Game.UI.Console\bin\Debug\net6.0\HarryPotter.Core.Tools.pdb

@@ -1,0 +1,15 @@
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\bin\Debug\net6.0\DecouverteEvenements.exe
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\bin\Debug\net6.0\DecouverteEvenements.deps.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\bin\Debug\net6.0\DecouverteEvenements.runtimeconfig.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\bin\Debug\net6.0\DecouverteEvenements.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\bin\Debug\net6.0\DecouverteEvenements.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\obj\Debug\net6.0\DecouverteEvenements.csproj.AssemblyReference.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\obj\Debug\net6.0\DecouverteEvenements.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\obj\Debug\net6.0\DecouverteEvenements.AssemblyInfoInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\obj\Debug\net6.0\DecouverteEvenements.AssemblyInfo.cs
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\obj\Debug\net6.0\DecouverteEvenements.csproj.CoreCompileInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\obj\Debug\net6.0\DecouverteEvenements.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\obj\Debug\net6.0\refint\DecouverteEvenements.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\obj\Debug\net6.0\DecouverteEvenements.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\obj\Debug\net6.0\DecouverteEvenements.genruntimeconfig.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\DecouverteEvenements\obj\Debug\net6.0\ref\DecouverteEvenements.dll

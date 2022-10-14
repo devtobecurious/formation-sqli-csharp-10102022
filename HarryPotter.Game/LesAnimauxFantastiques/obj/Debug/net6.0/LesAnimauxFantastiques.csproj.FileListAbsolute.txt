@@ -1,0 +1,15 @@
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\bin\Debug\net6.0\LesAnimauxFantastiques.exe
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\bin\Debug\net6.0\LesAnimauxFantastiques.deps.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\bin\Debug\net6.0\LesAnimauxFantastiques.runtimeconfig.json
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\bin\Debug\net6.0\LesAnimauxFantastiques.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\bin\Debug\net6.0\LesAnimauxFantastiques.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\obj\Debug\net6.0\LesAnimauxFantastiques.csproj.AssemblyReference.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\obj\Debug\net6.0\LesAnimauxFantastiques.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\obj\Debug\net6.0\LesAnimauxFantastiques.AssemblyInfoInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\obj\Debug\net6.0\LesAnimauxFantastiques.AssemblyInfo.cs
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\obj\Debug\net6.0\LesAnimauxFantastiques.csproj.CoreCompileInputs.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\obj\Debug\net6.0\LesAnimauxFantastiques.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\obj\Debug\net6.0\refint\LesAnimauxFantastiques.dll
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\obj\Debug\net6.0\LesAnimauxFantastiques.pdb
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\obj\Debug\net6.0\LesAnimauxFantastiques.genruntimeconfig.cache
+D:\Works\Formations\En cours\SQLli\Csharp\10102022\formation-sqli-csharp-10102022\HarryPotter.Game\LesAnimauxFantastiques\obj\Debug\net6.0\ref\LesAnimauxFantastiques.dll
